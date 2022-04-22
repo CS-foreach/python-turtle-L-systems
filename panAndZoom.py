@@ -46,4 +46,3 @@ def setListens():
 def initialize():
     setListens()
     listen()
-    mainloop()
