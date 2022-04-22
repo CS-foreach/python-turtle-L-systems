@@ -1,6 +1,6 @@
 from turtle import *
 
-moveDistance = 20
+moveDistance = 120
 turnAmount = 60
 
 def goForward(): forward(moveDistance)
