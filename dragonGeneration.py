@@ -1,7 +1,7 @@
 from turtle import *
 reset()
 
-angle = 90
+# The turn angle needed is 90!
 
 replacementRules = {
     "x":"x+yf+",
