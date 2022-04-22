@@ -29,6 +29,7 @@ def runThis(structure):
     for _ in structure: 
         actions[_]()
 
+# We use tracer and update here in order to prevent the drawing animation.
 tracer(0)
 runThis(generateDragon(12))
 update()
