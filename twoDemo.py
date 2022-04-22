@@ -1,11 +1,10 @@
 from turtle import *
+reset()
 
 def drawThis(iterations, moveDistance, turnAmount):
     for _ in range(iterations):
         forward(moveDistance)
         left(turnAmount)
-
-reset()
 
 drawThis(10, 11, 18)
 left(180)
